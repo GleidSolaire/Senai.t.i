@@ -27,8 +27,8 @@ public class FXMLDocumentController implements Initializable {
     @FXML
 
 Button botao = new Button ("+");
-    double n1 = Double.valueOf(caixaTexto_n1.getText ());
-             @FXML
+    /*double n1 = Double.valueOf(caixaTexto_n1.getText());
+             @FXML*/
 
 Button botao1 = new Button ("-");
              
@@ -53,6 +53,11 @@ Button botao3 = new Button ("/");
        
       
         
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
